@@ -6,6 +6,6 @@ scanf("%lf",&height);
 printf("Please input weight in a kilogram.");
 scanf("%lf",&weight);
 bmi=weight/(height*height);
-printf("%.1f\n",bmi);
+printf("%.lf\n",bmi);
 return 0;
 }
